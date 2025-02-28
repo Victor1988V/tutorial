@@ -15,89 +15,146 @@
   </head>
   <body>
     <header>
-      <nav class="navigation">
-        <a href="" class="logo"><span class="logo-accent">Web</span>Studio</a>
-        <ul class="menu-list">
-          <li class="item"><a href="./index.html" class="link">Студия</a></li>
-          <li class="item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
-          <li class="item"><a href="" class="link">Контакти</a></li>
-        </ul>
-        <a href="mailto: info@devstudio.com" class="link-adress">info@devstudio.com</a>
-        <a href="tel: +38 096 111 11 11" class="link-adress">+38 096 111 11 11</a>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <ul>
-          <li><button type="button">Усі</button></li>
-          <li><button type="button">Веб-сайти</button></li>
-          <li><button type="button">Додатки</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
-        </ul>
-        <ul>
-          <li>
-            <img src="./images/imgOne (3).jpg" alt="" width="370px" />
-            <h2>Технокряк</h2>
-            <p>Веб-сайт</p>
-          </li>
-          <li>
-            <img src="./images/imgTwo (2).jpg" alt="" width="370px" />
-            <h2>Постер New Orlean vs Golden Star</h2>
-            <p>Дизайн</p>
-          </li>
-          <li>
-            <img src="./images/imgThree (2).jpg" alt="" width="370px" />
-            <h2>Ресторан Seafood</h2>
-            <p>Додаток</p>
-          </li>
-          <li>
-            <img src="./images/imgFour.jpg" alt="" width="370px" />
-            <h2>Проєкт Prime</h2>
-            <p>Маркетинг</p>
-          </li>
-          <li>
-            <img src="./images/imgFive.jpg" alt="" width="370px" />
-            <h2>Проєкт Boxes</h2>
-            <p>Додаток</p>
-          </li>
-          <li>
-            <img src="./images/imgSix.jpg" alt="" width="370px" />
-            <h2>Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
-          </li>
-          <li>
-            <img src="./images/imgSeven.jpg" alt="" width="370px" />
-            <h2>Видання Limited Edition</h2>
-            <p>Дизайн</p>
-          </li>
-          <li>
-            <img src="./images/imgEght.jpg" alt="" width="370px" />
-            <h2>Проєкт LAB</h2>
-            <p>Маркетинг</p>
-          </li>
-          <li>
-            <img src="./images/imgNine.jpg" alt="" width="370px" />
-            <h2>Growing Business</h2>
-            <p>Додаток</p>
-          </li>
-        </ul>
-      </section>
-      <footer class="footer">
-        <a href="" class="logo"><span class="logo-accent">Web</span>Studio</a>
-        <address class="adress">
-          <ul class="list">
+      <div class="container">
+        <nav class="navigation">
+          <a href="" class="logo"><span class="logo-accent">Web</span>Studio</a>
+          <ul class="menu-list">
+            <li class="item accent"><a href="./index.html" class="link">Студия</a></li>
+            <li class="item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
+            <li class="item"><a href="" class="link">Контакти</a></li>
+          </ul>
+          <ul class="contact-list">
             <li class="item">
-              <a href="" class="link-adress"> м. Київ, пр-т Лесі Українки, 26 </a>
+              <a href="mailto: info@devstudio.com" class="link-adress">
+                <svg class="icon-email">
+                  <use href="./images/symbol-defs.svg#icon-email"></use>
+                </svg>
+                info@devstudio.com</a
+              >
             </li>
             <li class="item">
-              <a href="mailto: info@devstudio.com" class="link">info@devstudio.com</a>
-            </li>
-            <li class="item">
-              <a href="tel: +38 096 111 11 11" class="link">+38 096 111 11 11</a>
+              <a href="tel: +38 096 111 11 11" class="link-adress">
+                <svg class="icon-phone">
+                  <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                </svg>
+                +38 096 111 11 11</a
+              >
             </li>
           </ul>
-        </address>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="portfolio">
+        <div class="container">
+          <ul class="list-portfolio-filter">
+            <li class="item"><button type="button">Усі</button></li>
+            <li class="item"><button type="button">Веб-сайти</button></li>
+            <li class="item"><button type="button">Додатки</button></li>
+            <li class="item"><button type="button">Дизайн</button></li>
+            <li class="item"><button type="button">Маркетинг</button></li>
+          </ul>
+          <ul class="list-portfolio">
+            <li class="item">
+              <img src="./images/imgOne (3).jpg" alt="" width="370px" />
+              <h2>Технокряк</h2>
+              <p>Веб-сайт</p>
+            </li>
+            <li class="item">
+              <img src="./images/imgTwo (2).jpg" alt="" width="370px" />
+              <h2>Постер New Orlean vs Golden Star</h2>
+              <p>Дизайн</p>
+            </li>
+            <li class="item">
+              <img src="./images/imgThree (2).jpg" alt="" width="370px" />
+              <h2>Ресторан Seafood</h2>
+              <p>Додаток</p>
+            </li>
+            <li class="item">
+              <img src="./images/imgFour.jpg" alt="" width="370px" />
+              <h2>Проєкт Prime</h2>
+              <p>Маркетинг</p>
+            </li>
+            <li class="item">
+              <img src="./images/imgFive.jpg" alt="" width="370px" />
+              <h2>Проєкт Boxes</h2>
+              <p>Додаток</p>
+            </li>
+            <li class="item">
+              <img src="./images/imgSix.jpg" alt="" width="370px" />
+              <h2>Inspiration has no Borders</h2>
+              <p>Веб-сайт</p>
+            </li>
+            <li class="item">
+              <img src="./images/imgSeven.jpg" alt="" width="370px" />
+              <h2>Видання Limited Edition</h2>
+              <p>Дизайн</p>
+            </li>
+            <li class="item">
+              <img src="./images/imgEght.jpg" alt="" width="370px" />
+              <h2>Проєкт LAB</h2>
+              <p>Маркетинг</p>
+            </li>
+            <li class="item">
+              <img src="./images/imgNine.jpg" alt="" width="370px" />
+              <h2>Growing Business</h2>
+              <p>Додаток</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container">
+          <div>
+            <a href="" class="logo"><span class="logo-accent">Web</span>Studio</a>
+            <address class="adress">
+              <ul class="list">
+                <li class="item">
+                  <a href="" class="link-adress"> м. Київ, пр-т Лесі Українки, 26 </a>
+                </li>
+                <li class="item">
+                  <a href="mailto: info@devstudio.com" class="link">info@devstudio.com</a>
+                </li>
+                <li class="item">
+                  <a href="tel: +38 096 111 11 11" class="link">+38 096 111 11 11</a>
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="social-box">
+            <h2>ПРИЄДНУЙТУСЬ</h2>
+            <ul class="social-list">
+              <li class="item">
+                <a href="">
+                  <svg class="icon-social" width="44px" height="44px">
+                    <use href="./images/symbol-defs.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="item">
+                <a href="">
+                  <svg class="icon-social">
+                    <use href="./images/symbol-defs.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="item">
+                <a href="">
+                  <svg class="icon-social">
+                    <use href="./images/symbol-defs.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="item">
+                <a href="">
+                  <svg class="icon-social">
+                    <use href="./images/symbol-defs.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </footer>
     </main>
   </body>
