@@ -1,0 +1,33 @@
+/* animation  */
+
+form {
+  transition-property: background-color;
+  transition-duration: 1000ms;
+  transition-timing-function: line;
+  transition-delay: 500ms;
+
+  transition: backgtround-color 1000ms line 500ms;
+
+  transform: translateY(-35px);
+  transform: prespective(600px) rotateY(45deg);
+  overflow: hiden;
+}
+
+/* form */
+
+textarea {
+  resize: none;
+}
+
+.form-input + form-label:focus,
+.form-input + form-label:not(:placeholder-shown) {
+  transform: translateY(-50px);
+}
+
+.form-field:focus-within > .form-label {
+  transform: translateY(-50%);
+}
+
+.checkbox {
+  
+}
